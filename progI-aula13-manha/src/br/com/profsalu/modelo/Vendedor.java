@@ -1,6 +1,6 @@
 package br.com.profsalu.modelo;
 
-public class Vendedor {
+public class Vendedor{
 	private String nome;
 	private double salario;
 	
@@ -15,5 +15,6 @@ public class Vendedor {
 	}
 	public void setSalario(double salario) {
 		this.salario = salario;
-	}	
+	}
+	
 }

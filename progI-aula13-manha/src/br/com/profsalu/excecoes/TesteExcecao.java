@@ -7,6 +7,8 @@ public class TesteExcecao {
 			metodo1();
 		}catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("Tentou acessar uma posicao invalida do vetor");
+		}finally {
+			System.out.println("Fim do try-catch");
 		}
 		System.out.println("fim do main");
 	}
@@ -21,7 +23,7 @@ public class TesteExcecao {
 		System.out.println("inicio do metodo2");
 		int[] vet = { 1, 2, 3, 4, 5 };// 0 posInicial - 4 posFinal
 
-		for (int i = 0; i <= 10; i++)
+		for (int i = 0; i <= 4; i++)
 			System.out.println(vet[i]);
 		System.out.println("fim do metodo2");
 	}
